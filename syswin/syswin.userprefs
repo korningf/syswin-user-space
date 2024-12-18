@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{35E9D8CA-1A3D-45F9-839A-CB035A1E5C7A}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\work\workspace\system\su\su\su\su.cs" line="1" column="1" />
+      <Breakpoint file="C:\work\workspace\manufacture\syswin\syswin\httpget\httpget\httpget.cs" line="69" column="1" />
+      <Breakpoint file="C:\work\workspace\manufacture\syswin\syswin\httpget\httpget\httpget.cs" line="89" column="87" />
+      <Breakpoint file="C:\work\workspace\manufacture\syswin\syswin\httpget\httpget\httpget.cs" line="80" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.su PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="su\su\resource.resx">
+    <Files>
+      <File FileName="su\su\su.cs" Line="249" Column="33" />
+      <File FileName="su\su\resource.resx" Line="145" Column="56" />
+      <File FileName="su\su\su.csproj" Line="89" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <DisabledProjects>
+    <String>httpget\httpget.csproj</String>
+  </DisabledProjects>
+  <AuthorInfo Name="Francis Korning" Email="fkorning@yahoo.ca" Copyright="(c) 2014 Francis Korning (manufacture.net)" Company="manufacture.net" Trademark="(r) 2014 Francis Korning (manufacture.net)" />
+</Properties>

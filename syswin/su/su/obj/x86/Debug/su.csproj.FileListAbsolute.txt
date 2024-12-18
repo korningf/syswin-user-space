@@ -1,0 +1,7 @@
+C:\work\workspace\manufacture\syswin\syswin\su\su\bin\Debug\Properties\AssemblyInfo.cs
+C:\work\workspace\manufacture\syswin\syswin\su\su\bin\Debug\su.exe
+C:\work\workspace\manufacture\syswin\syswin\su\su\bin\Debug\su.pdb
+C:\work\workspace\manufacture\syswin\syswin\su\su\obj\x86\Debug\su.resource.resources
+C:\work\workspace\manufacture\syswin\syswin\su\su\obj\x86\Debug\su.csproj.GenerateResource.Cache
+C:\work\workspace\manufacture\syswin\syswin\su\su\obj\x86\Debug\su.exe
+C:\work\workspace\manufacture\syswin\syswin\su\su\obj\x86\Debug\su.pdb

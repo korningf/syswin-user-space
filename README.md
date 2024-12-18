@@ -1,56 +1,124 @@
+	
+	<p>
+	
+<pre>
 
-```
+	#=============================================================================#
+	#	Manufacture 1.0
+	#=============================================================================#
 
-#=============================================================================#
-# Manufakture syswin-user-space
-#-----------------------------------------------------------------------------#
+<code> 
+      _____                        _____               __                        
+     /     \ _____    ____  __ ___/ ____\____    _____/  |_ __ _________   ____  
+    /  \ /  \\__  \  /    \|  |  \   __\\__  \ _/ ___\   __\  |  \_  __ \_/ __ \ 
+   /    Y    \/ __ \|   |  \  |  /|  |   / __ \\  \___|  | |  |  /|  | \/\  ___/ 
+   \____|__  (____  /___|  /____/ |__|  (____  /\___  >__| |____/ |__|    \___  >
+           \/     \/     \/                  \/     \/                        \/ 
 
-                              _____        __      __                        
-  _____ _____    ____  __ ___/ ____\____  |  | ___/  |_ __ _________   ____  
- /     \\__  \  /    \|  |  \   __\\__  \ |  |/ /\   __\  |  \_  __ \_/ __ \ 
-|  Y Y  \/ __ \|   |  \  |  /|  |   / __ \|    <  |  | |  |  /|  | \/\  ___/ 
-|__|_|  (____  /___|  /____/ |__|  (____  /__|_ \ |__| |____/ |__|    \___  >
-      \/     \/     \/                  \/     \/                         \/
-
-#-----------------------------------------------------------------------------#
-
-#=============================================================================#
-
-```
-
-#-----------------------------------------------------------------------------#
-# Manufakture syswin-user-space
-#-----------------------------------------------------------------------------#
-
-Manufakture syswin utilities in user-space on secondary drive (L:)
+</code>		
+	
+	#=============================================================================#
+	#	a generic CI/CD factory.
+	#=============================================================================#	
+	
+	
+	#-----------------------------------------------------------------------------#
+	#	Manufacture Syswin
+	#-----------------------------------------------------------------------------#
 
 
-[TOC]
+	Syswin is a collection of Windows bootstrap utilities and binaries that serve
+	as prererquisites for our POSIX windows platform.  It is based on the excellent
+	SysInternals Suite by Marc Russinovitch, with added binaries for fetching and
+	unpacking files, shell path and environment automation, and a super-user shell
+	wrapper to expose and assume administrator privilege and launch root commands.
+	
 
-#-----------------------------------------------------------------------------#
-## Requirements
-#-----------------------------------------------------------------------------#
+	Manufacture Syswin installs almost programatically from within an admin shell.
 
-#-----------------------------------------------------------------------------#
-## Installation
-#-----------------------------------------------------------------------------#
 
-#-----------------------------------------------------------------------------#
-## Configuration
-#-----------------------------------------------------------------------------#
-
-#-----------------------------------------------------------------------------#
-## Operation
-#-----------------------------------------------------------------------------#
-
-#-----------------------------------------------------------------------------#
-## Appendix
-#-----------------------------------------------------------------------------#
+	Capabilities:
+	
+		- POSIX unified directory file structure
+		- sysinternals binaries and applications
+		- junction, mklink, psexec, pskill, pslist, psfile, pspasswd
+		- zip/unzip, gzip/gunzip, bzip/bunzip
+		- httpget, pathed, su
 
 
 
+	POSIX Structure:
+
+		/windows/		windows installation
+		/cygwin/		cygwin binaries
+		/syswin/		syswin binaries
+
+		/				main cygwin mountpoint 
+		/mnt/			additional mountpoints
+		cygdrive/		mounted windows drives
+
+		dev/			devices (virtual)
+		proc/			processes (virtual)
+
+		var/			var files (permanent)
+		tmp/			tmp files (volatile)
+		
+		etc/			configuration files
+		lib/			runtime libraries
+
+		usr/			user programs
+		bin/			user binaries
+		sbin/			admin binaries	
+		setup/			setup directory
+		
+		home/			posix user profiles
+		users/			windows user profiles
+		
+		vault/			private passwd vault
+		work/			work apps and workspaces
+		
+		share/			shared data, libs, programs 
+		srv/			shared public data, servers
+	
 
 
-#-----------------------------------------------------------------------------#
-# (c) Francis Korning 2024.
-#=============================================================================#
+	Requirements:
+
+    - windows vista/7/8/10+  x86 or x64(recommended) 
+    
+    - windows user with local administrator rights
+    
+    - internet / proxy access and zip/unzip archiver 
+    
+    - space for cygwin in the default drive c:\cygwin
+    
+    - space for syswin in the default drive c:\syswin
+    
+    
+
+	Prerequisites:
+
+    - start by exposing the real administrator account
+
+        runas /user:%COMPUTERNAME%\administrator "cmd -c ^net user administrator /active:yes^"
+
+    - login as Administrator and set the password (memorize it!)
+    
+        runas /user:%COMPUTERNAME%\administrator "cmd -k"
+        
+        net user administrator <password>
+        
+   
+    
+	Installation:
+        
+    - from an interactive admininstrator shell run sys-install.bat
+
+		sys-install.bat
+
+	
+	#=============================================================================#
+	# (c) 2017 FKorning.
+	#=============================================================================#
+			
+</pre>

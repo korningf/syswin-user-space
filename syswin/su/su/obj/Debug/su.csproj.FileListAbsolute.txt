@@ -1,0 +1,7 @@
+C:\work\workspace\system\system\su\su\bin\Debug\Properties\AssemblyInfo.cs
+C:\work\workspace\system\system\su\su\bin\Debug\su.exe
+C:\work\workspace\system\system\su\su\bin\Debug\su.pdb
+C:\work\workspace\system\system\su\su\obj\Debug\su.resource.resources
+C:\work\workspace\system\system\su\su\obj\Debug\su.csproj.GenerateResource.Cache
+C:\work\workspace\system\system\su\su\obj\Debug\su.exe
+C:\work\workspace\system\system\su\su\obj\Debug\su.pdb

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<properties>
+		<manufacture.version>1.0.0-SNAPSHOT</manufacture.version>
+        <syswin.version>1.0.0-SNAPSHOT</syswin.version>
+		<cygwin.version>1.7.1</cygwin.version>
+	</properties>
+
+	<groupId>net.manufacture</groupId>
+	<artifactId>syswin</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>syswin</name>
+	<description>SysWin : Manufacture Windows System utilities</description>
+	<url>https://sourceforge.net/p/manufacture/</url>
+	
+	<modules>
+	<!--
+		<module>syswin</module>
+    -->
+	</modules>
+
+	<scm>
+		<connection>scm:svn:https://svn.code.sf.net/p/manufacture/syswin/trunk</connection>
+		<developerConnection>scm:svn:https://svn.code.sf.net/p/manufacture/syswin/trunk</developerConnection>
+		<url>https://sourceforge.net/p/manufacture/</url>
+		<tag>trunk</tag>
+	</scm>
+
+	<distributionManagement>
+		<site>
+			<id>apache.website</id>
+			<url>scm:svn:https://svn.code.sf.net/p/manufacture/syswin/trunk/site/content/</url>
+		</site>
+	</distributionManagement>
+
+</project>

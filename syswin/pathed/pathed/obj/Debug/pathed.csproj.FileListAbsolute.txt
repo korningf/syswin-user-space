@@ -1,0 +1,6 @@
+C:\work\workspace\manufacture\syswin\syswin\pathed\pathed\bin\Debug\pathed.exe
+C:\work\workspace\manufacture\syswin\syswin\pathed\pathed\bin\Debug\pathed.pdb
+C:\work\workspace\manufacture\syswin\syswin\pathed\pathed\obj\Debug\pathed.resource.resources
+C:\work\workspace\manufacture\syswin\syswin\pathed\pathed\obj\Debug\pathed.csproj.GenerateResource.Cache
+C:\work\workspace\manufacture\syswin\syswin\pathed\pathed\obj\Debug\pathed.exe
+C:\work\workspace\manufacture\syswin\syswin\pathed\pathed\obj\Debug\pathed.pdb

@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="app.manifest">
+    <Files>
+      <File FileName="su.csproj" Line="1" Column="1" />
+      <File FileName="su.cs" Line="5" Column="5" />
+      <File FileName="InputArgs.cs" Line="45" Column="45" />
+      <File FileName="resource.Designer.cs" Line="33" Column="33" />
+      <File FileName="resource.resx" Line="49" Column="49" />
+      <File FileName="SecureConsole.cs" Line="4" Column="4" />
+      <File FileName="app.manifest" Line="1" Column="1" />
+      <File FileName="Properties\AssemblyInfo.cs" Line="33" Column="33" />
+      <File FileName="packages.config" Line="11" Column="11" />
+      <File FileName="..\..\sudo\sudo\Properties\AssemblyInfo.cs" Line="19" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

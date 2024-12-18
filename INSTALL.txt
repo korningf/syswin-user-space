@@ -1,0 +1,43 @@
+Syswin - INSTALL
+
+
+manufacture syswin installs almost programatically.
+taking advantage of runas and syswin' su and httpget.
+
+
+
+requirements:
+
+    - windows vista/7/8/10+  (win32 or wow64) 
+    
+    - windows user with local administrator rights
+    
+    - internet / proxy access and zip/unzip archiver 
+    
+    - space for cygwin in the default drive c:\cygwin
+    
+    - space for syswin in the default drive c:\syswin
+    
+    
+
+manual prerequisites:
+
+    - start by exposing the real administrator account
+
+        runas /user:%COMPUTERNAME%\administrator "cmd -c ^net user administrator /active:yes^"
+
+    - login as Administrator and set the password (memorize it!)
+    
+        runas /user:%COMPUTERNAME%\administrator "cmd -k"
+        
+        passwd
+        
+    
+automatic installation:
+        
+    - run sys-install.bat
+    
+    	sys-install.bat
+    	
+    
+    

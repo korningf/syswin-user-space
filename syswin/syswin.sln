@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6CCCE489-A195-4D06-8899-21BAB35E60C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "su", "su\su\su.csproj", "{35E9D8CA-1A3D-45F9-839A-CB035A1E5C7A}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "lib", "lib\lib.shproj", "{23AB7CC8-8AF2-419B-8300-FCDF2CDB153B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "httpget", "httpget\httpget\httpget.csproj", "{E316FE67-CA5D-41E9-B71E-3F8CF10EBFF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pathed", "pathed\pathed\pathed.csproj", "{29D71424-E57A-4B31-ADD3-733D4C7A27F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29D71424-E57A-4B31-ADD3-733D4C7A27F2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{29D71424-E57A-4B31-ADD3-733D4C7A27F2}.Debug|x86.Build.0 = Debug|Any CPU
+		{29D71424-E57A-4B31-ADD3-733D4C7A27F2}.Release|x86.ActiveCfg = Release|Any CPU
+		{29D71424-E57A-4B31-ADD3-733D4C7A27F2}.Release|x86.Build.0 = Release|Any CPU
+		{35E9D8CA-1A3D-45F9-839A-CB035A1E5C7A}.Debug|x86.ActiveCfg = Debug|x86
+		{35E9D8CA-1A3D-45F9-839A-CB035A1E5C7A}.Debug|x86.Build.0 = Debug|x86
+		{35E9D8CA-1A3D-45F9-839A-CB035A1E5C7A}.Release|x86.ActiveCfg = Release|x86
+		{35E9D8CA-1A3D-45F9-839A-CB035A1E5C7A}.Release|x86.Build.0 = Release|x86
+		{E316FE67-CA5D-41E9-B71E-3F8CF10EBFF7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E316FE67-CA5D-41E9-B71E-3F8CF10EBFF7}.Debug|x86.Build.0 = Debug|Any CPU
+		{E316FE67-CA5D-41E9-B71E-3F8CF10EBFF7}.Release|x86.ActiveCfg = Release|Any CPU
+		{E316FE67-CA5D-41E9-B71E-3F8CF10EBFF7}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = su\su\su.csproj
+	EndGlobalSection
+EndGlobal

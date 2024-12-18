@@ -1,0 +1,13 @@
+*.ipr
+*.iml
+*.iws
+build
+bin
+obj
+target
+.classpath
+.project
+.settings
+.idea
+.java-version
+sys-internals.zip
